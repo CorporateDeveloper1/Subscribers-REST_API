@@ -1,0 +1,15 @@
+GET http://localhost:5024/subscribers
+
+###
+
+GET http://localhost:5024/subscribers/5ebb880e3c9e8e9fd0a84bc3
+
+###
+
+POST http://localhost:5024/subscribers
+Content-Type: application/json
+
+{
+  "name": "Amazing Person",
+  "subscribedToChannel": "Web Dev"
+}
